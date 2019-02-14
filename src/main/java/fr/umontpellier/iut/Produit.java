@@ -28,7 +28,7 @@ public class Produit {
     }
 
     public Compte demarrerEnchere(String description, double prixCourant, double coutParticipation){
-        
+
 
 
     }
