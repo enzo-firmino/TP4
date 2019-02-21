@@ -40,6 +40,17 @@ public class Produit {
     }
 
 
+    OffreEnchere calculerGagnant(){
+        double max = listeOffreEnchere.get(0).getPrixMax();
+        for (int i=1; i<listeOffreEnchere.size(); i++){
+            if(listeOffreEnchere.get(i).getPrixMax() > max){
+                return 
+            }
+
+        }
+        return
+
+    }
 
 
 
@@ -68,6 +79,8 @@ public class Produit {
                 ", coutParticipation=" + coutParticipation +
                 '}';
     }
+
+
 }
 
 
